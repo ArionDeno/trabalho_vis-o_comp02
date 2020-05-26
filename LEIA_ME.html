@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+   <title> Trabalho visão Computacional 2 bimestre -Arion Denovaro</title>
+   <meta charset="utf-8"/>
+  <style>
+    body
+    {
+      padding: 0px;
+      margin: 0px;
+      background-color: #FFFFFF;
+      font-family:arial;
+    }
+    h1
+    {
+     text-align: center;
+    }
+    
+   h2
+  {
+   margin-left: 20px;
+  }
+
+  p
+  {
+    font-size: 16px;
+    font-family:arial;
+    margin:  20px;
+  }
+
+  li
+  {
+    font-size: 16px;
+    font-family:arial;  
+  }
+  table,td,tr
+  {
+    border: 1px solid black;
+    font-size: 16px;
+    font-family:arial;
+  }   
+
+  video
+  {
+    border: 2px solid black;
+  }
+
+  </style>   
+  </head>
+  <body>
+    <header>
+    <h1> 
+      Universidade Tuiuti do Paraná         <br>
+      Disiplina:  Visão Computacional       <br> 
+      Estudo Dirigido 2 Bimestre            <br>
+      Professor: Sergio Luiz Marquees Filho  <br>
+      Aluno: Arion Denovaro
+    </h1> 
+    </header>
+
+   <article>
+      <h2> Introdução:</h2><br>
+     <p> 
+ &nbsp;&nbsp;&nbsp;&nbsp;O trabalho em questão, visa demostrar a aplicação das transformações, em duas imagens ao mesmo 
+ tempo aplicando-se : Rotação,Translação, Escalonamento e Virar. <br>  <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp; Para essa demostração, foi utilizado duas imagens fornecidas pelo professor,
+ de uma mão e um relógiode pulso, que serão aplicada as transformações, em tempo real, utilizando-se 
+ a poderosa <strong>API</strong> multi plataforma, para jogos e aplicações multimídia 
+ <strong>>SDL2</strong> e para carregar imagens no formato <strong>PNG</strong> 
+ em complemento <strong> SDL2_image</strong>.
+
+ &nbsp;&nbsp;&nbsp;&nbsp;As transformações ocorrem em tempo real, pois a aplicação usa conceitos
+ amplamente usados em desenvolvimento de jogos, como: framerate, gameloop, renderização por hardware 
+ e controle do framerate, posicionamento relativo.   
+     </p>
+ 
+ <h2> Recursos Ultilizados</h2>
+  <p> Foi Ultilizado para esse trabalho A linguagem C e as seguintes ferramentas: </p>
+  <ul>
+   <li> Linguagem C </li>
+   <li> Compilador GCC - 8.1 </li>
+   <li> SDL2 - 2.0.12 </li>
+   <li> SDL2_image - 2.0.0 </li>
+   <li> Cmake - 2.8 </li>
+ <ul>    
+  <br> <br> <br>
+   <p>
+     As teclas de atalho para a execução das operações são:
+   </p>
+  <br> <br>
+   <table>  
+   <tr>  
+    <td> Teclas direcionais </td>  <td> movem as imagens </td>
+   </tr>
+   <tr>   
+    <td> Tecla R </td> <td> Rotaciona Horario </td>
+   </tr>  
+   <tr>  
+    <td> Tecla E </td> <td> Rotaciona Anti - Horario </td>
+   </tr>  
+   <tr>  
+    <td> Tecla H </td> <td> Acresenta Escala </td>
+   </tr>
+   <tr>    
+    <td> Tecla G </td> <td> Diminiu Escala </td>
+   </tr> 
+   <tr>   
+    <td> Tecla ESC </td> <td> Finaliza a Execução </td>
+   </tr> 
+   </table>  
+ 
+   <br>
+
+   </article>
+  <!-- Por favor com isso vc deve ter aprendido que é melhor não usar C# para jogos, uma vez que 
+   C/C++ são infinitamente mais poderosos, além de serem mais rapidas tbm-->
+  </body>
+
+ </html>
